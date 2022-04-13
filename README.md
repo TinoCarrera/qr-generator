@@ -1,6 +1,12 @@
 # QR Code generator!
 Generate QR codes.
 
+## Install requirements
+Run:
+```
+python -m pip install -r requirements.txt
+```
+
 ## Usage
 Run:
 ```
