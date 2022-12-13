@@ -11,7 +11,7 @@ def main():
   qr.add_data(url)
   qr.make(fit=True)
   img = qr.make_image(fill_color="white", back_color="transparent")
-  img.save('{}.png'.format(file_name))
+  img.save(f'{file_name}.png')
 
 if __name__=="__main__":
   main()
